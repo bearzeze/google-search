@@ -1,0 +1,139 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.navbar-style {
+    background-color: #bbd6e8;
+}
+
+.navbar a {
+    color: rgb(61, 61, 60);
+}
+
+.navbar a.nav-link:hover {
+    color: rgb(50, 139, 255);
+}
+
+.disabled {
+    color: rgb(212, 64, 64);
+}
+
+.navbar a.gmail,
+.navbar a.gmail:hover {
+    font-weight: 500;
+    color: #c71610;
+}
+
+.navbar-brand span {
+    font-weight: 500;
+    letter-spacing: 0.2em;
+    font-size: x-large;
+}
+
+.z1-letter {
+    color: #4285F4;
+}
+
+.e-letter {
+    color: #34A853;
+}
+
+.z2-letter {
+    color: #FBBC05;
+}
+
+.a-letter {
+    color: #EA4335;
+}
+
+.main-input {
+    width: 600px;
+    height: 45px;
+    box-sizing: border-box;
+    border: 2px solid rgb(196, 196, 196);
+    border-radius: 30px;
+    padding-left: 40px;
+}
+
+.main-input:hover {
+    box-shadow: 3px 3px 3px 3px rgb(196, 196, 196);
+}
+
+.main-input:focus {
+    border-color: rgb(196, 196, 196);
+    outline: none;
+}
+
+@media screen and (max-width: 650px) {
+    .main-input {
+        width: 70%;
+    }
+}
+
+#form1 button,
+#form2 button {
+    background-color: #bbd6e8;
+    border: 1px solid #bbd6e8;
+    padding: 0 16px;
+    height: 36px;
+    min-width: 54px;
+    color: rgb(61, 61, 60);
+    border-radius: 7px;
+    margin-bottom: 2%;
+}
+
+#form1 button:hover {
+    border-color: rgb(61, 61, 60);
+}
+
+.logo {
+    margin-top: 5%;
+}
+
+.advance-content h5 {
+    color:#d93025;
+    margin: 30px 0px 20px 25px;
+}
+
+.advance-content hr {
+    margin: 0% 1%;
+    color: #b6b6b6;
+}
+
+.advance-content h6 {
+    color:#000;
+    margin: 30px 0px 5px 25px;
+    font-size: 16px;
+}
+
+.advance-content label {
+    color:#000;
+    margin: 20px 0px 5px 35px;
+    font-size: 15px;
+}
+
+.advance-textinput {
+    margin: 20px 0px 5px 25px;
+    width: 65%;
+    padding: 2px 8px;
+    box-sizing: border-box;
+    border: 1px solid rgb(196, 196, 196);
+}
+
+.advance-textinput:focus {
+    border-color: #4787ed;
+    outline: none;
+}
+
+#form3 button {
+    background-color: #4d90fe;
+    color: white;
+    border:1px solid #4787ed;
+    padding: 5px 16px;
+    box-shadow: none;
+    border-radius: 4px;
+}
+
+#form3 button:hover {
+    border-color: #1e59b7;
+}
